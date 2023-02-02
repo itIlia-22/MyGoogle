@@ -14,10 +14,10 @@
         android:theme="@style/Theme.MyGoogle"
         tools:targetApi="31">
         <activity
-            android:name=".dispatcher_task.MainActivityDispatcher"
+            android:name=".cv.MainActivityCv"
             android:exported="true"
-            android:label="@string/title_activity_main_dispatcher"
-            android:theme="@style/Theme.MyGoogle" >
+            android:label="@string/title_activity_main_cv"
+            android:theme="@style/Theme.MyGoogle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,12 +25,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".task.MainActivityTask"
+            android:name=".dispatcher_task.MainActivityDispatcher"
             android:exported="true"
-            android:label="@string/title_activity_main_task"
+            android:label="@string/title_activity_main_dispatcher"
             android:theme="@style/Theme.MyGoogle">
 
         </activity>
+        <activity
+            android:name=".task.MainActivityTask"
+            android:exported="true"
+            android:label="@string/title_activity_main_task"
+            android:theme="@style/Theme.MyGoogle" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -12,4 +12,8 @@
     <string name="title_activity_main_dispatcher">MainActivityDispatcher</string>
     <string name="all">All tasks completed</string>
     <string name="nice">Nice work!</string>
+    <string name="title_activity_main_cv">MainActivityCv</string>
+
+
+
 </resources>
